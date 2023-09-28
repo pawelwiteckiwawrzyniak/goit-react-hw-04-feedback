@@ -1,0 +1,19 @@
+.box {
+  display: flex;
+  column-gap: 10px;
+}
+
+.box__button {
+  background-color: white;
+  border: 1px rgb(110, 110, 110) solid;
+  border-radius: 5px;
+  padding: 5px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box__button:active {
+  opacity: 50%;
+}
