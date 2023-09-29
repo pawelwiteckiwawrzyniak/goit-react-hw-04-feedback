@@ -12,7 +12,7 @@ export const Statistics = ({
 }) => {
   return (
     <div className={css.statistics}>
-      {total > 0 ? (
+      {total !== 0 ? (
         <Fragment>
           <span className={css.statistics__data}>Good: {good}</span>
           <span className={css.statistics__data}>Neutral: {neutral}</span>
